@@ -6,6 +6,7 @@ int main() {
     printf("Rule Breaker!!!\n");
     printf("5 + 2 = %d\n", addNumber(5, 2));
     printf("%d\n", getTriangleType(3, 4, 5));
+    printf("%d\n",sub(5,3));
     return 0;
 }
 #endif // TEST
@@ -35,4 +36,8 @@ int getTriangleType(int a, int b, int c) {
         return -1;
     }
     return -3;
+}
+
+int sub(int a,int b){
+    return a-b;
 }
